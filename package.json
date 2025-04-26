@@ -64,6 +64,7 @@
     "test:watch": "jest --watch",
     "test:redteam:integration": "npm run build && ./test/redteam/integration/test.sh",
     "test": "jest",
+    "test-debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "tsc": "tsc"
   },
   "overrides": {
